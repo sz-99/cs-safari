@@ -13,10 +13,11 @@ namespace CS_Safari.Animals
         {
         }
 
-        public void Hunt()
-        {
-            Console.WriteLine($"{GetType().Name} is hunting on land!");
-        }
+        //public void Hunt()
+        //{
+        //    Console.WriteLine($"{GetType().Name} is hunting on land!");
+
+        //}
 
     }
 }

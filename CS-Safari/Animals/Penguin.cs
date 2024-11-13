@@ -18,10 +18,10 @@ namespace CS_Safari.Animals
             Console.WriteLine("Penguin is braying?");
         }
 
-        public void Hunt()
-        {
-            Console.WriteLine($"{GetType().Name} is hunting in the water!");
-        }
+        //public void Hunt()
+        //{
+        //    Console.WriteLine($"{GetType().Name} is hunting in the water!");
+        //}
 
         public void Swim()
         {

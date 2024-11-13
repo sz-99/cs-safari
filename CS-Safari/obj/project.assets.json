@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kep\\.nuget\\packages\\": {}
+    "C:\\Users\\yusha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kep\\Documents\\northcoders\\second-week\\cs-safari\\CS-Safari\\CS-Safari.csproj",
+      "projectUniqueName": "C:\\Users\\yusha\\Documents\\northcoders\\fundamentals\\cs-safari\\CS-Safari\\CS-Safari\\CS-Safari.csproj",
       "projectName": "CS-Safari",
-      "projectPath": "C:\\Users\\Kep\\Documents\\northcoders\\second-week\\cs-safari\\CS-Safari\\CS-Safari.csproj",
-      "packagesPath": "C:\\Users\\Kep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kep\\Documents\\northcoders\\second-week\\cs-safari\\CS-Safari\\obj\\",
+      "projectPath": "C:\\Users\\yusha\\Documents\\northcoders\\fundamentals\\cs-safari\\CS-Safari\\CS-Safari\\CS-Safari.csproj",
+      "packagesPath": "C:\\Users\\yusha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yusha\\Documents\\northcoders\\fundamentals\\cs-safari\\CS-Safari\\CS-Safari\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yusha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

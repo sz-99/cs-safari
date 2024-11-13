@@ -13,10 +13,12 @@ namespace CS_Safari.Animals
             Console.WriteLine($"{this.GetType().Name} is flying at night! Spooky!");
         }
 
-        public void Hunt()
-        {
-            Console.WriteLine($"{this.GetType().Name} is hunting at night! Run for your life!");
-        }
+        //public void Hunt()
+        //{
+        //    Console.WriteLine($"{this.GetType().Name} is hunting at night! Run for your life!");
+
+
+        //}
 
         public override void MakeSound()
         {
