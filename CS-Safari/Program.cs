@@ -45,7 +45,7 @@ namespace CS_Safari
                   new Penguin(15.8f)
                 };
 
-            CompareWeight comparer = new CompareWeight();
+            CompareWeight comparer = new CompareWeight(false);
             animalsToSee.Sort(comparer);
 
             animalsToSee.ForEach(animal => Console.WriteLine($" {animal.GetType().Name} - {animal.Weight}kg"));
