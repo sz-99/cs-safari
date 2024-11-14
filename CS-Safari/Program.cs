@@ -1,6 +1,7 @@
 ﻿using CS_Safari.Animals;
 using CS_Safari.Environments;
 using CS_Safari.Interfaces;
+using System.Globalization;
 
 namespace CS_Safari
 {
@@ -45,10 +46,16 @@ namespace CS_Safari
                   new Penguin(15.8f)
                 };
 
-            CompareWeight comparer = new CompareWeight(false);
+            CompareWeight comparer = new CompareWeight(true);
             animalsToSee.Sort(comparer);
 
             animalsToSee.ForEach(animal => Console.WriteLine($" {animal.GetType().Name} - {animal.Weight}kg"));
+
+            Tiger pumpkin = new Tiger(100.4f);
+
+            WeightFormatter pumpkinWeightFormatter = new WeightFormatter(pumpkin);
+            Console.WriteLine(pumpkinWeightFormatter.ToString("K", CultureInfo.GetCultureInfo("en-GB")));
+
 
 
 
